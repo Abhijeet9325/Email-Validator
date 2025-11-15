@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h2>Email Validator</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#validate">Validate</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+            <form action="/submit" method="post">
+                <!-- Input Field to Validate Email Address -->
+                <input placeholder="Enter your email to validate" type="email" id="email" name="email" required>
+                <br><br>
+                <!-- Submit button -->
+                <input id="submitBtn" class="btn" type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="container">
+            <h2>Your Results</h2>
+            <div id="resultCont" name="result">
+               
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

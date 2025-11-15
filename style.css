@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-top: -24px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    width: 40vw;
+    height: 30vw;
+    padding-bottom: 10vw;
+    margin-top: 30px;
+
+}
+
+button {
+    width: 90%;
+    padding: 8px 0;
+    margin-top: 16px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+input {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #555;
+    font-size: 13px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.1s;
+    padding-bottom: 2px;
+}
+
+.navbar nav a:hover {
+    color: #a9a7a7;
+    /* border-bottom: 2px solid #a9a7a7; clean underline effect */
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+#email {
+    padding-left: 12px;
+}
+
+#resultsCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+#resultsCont div::first-letter{
+    text-transform: uppercase;
+}
